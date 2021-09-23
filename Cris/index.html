@@ -14,13 +14,18 @@
     <!-- script para iconos -->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <!-- ESTILSO FONT -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Electrolize">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap" rel="stylesheet">
+    
 </head>
 
 <body>
     <!-- LOGOTIPO DE LA PAGINA -->
     <div class="navbar">
-        
+
         <div class="logo">
             <img id="imgLogo" src="img/fingerprint-solid.svg" alt="La hera digital">
             <a id="letraLogo">Ingenieria</a>
@@ -36,18 +41,37 @@
 
     <!-- CONTENIDO DE LA API -->
     <div class="contenido">
+
         <div class="buscador">
             <!-- icono -->
             <div class="form-group">
                 <img src="img/search-solid.svg" alt="Buscador" id="logobuscar">
                 <!-- en la parte de la clase agregamos is-valid o is-invalid para marcar un error solo se le agrega la maenra -->
-                <input type="text" placeholder="Ingrese la palrabra a buscar" class="form-control " id="inputValid" >
-                <div class="valid-feedback">Se ha encontrado con exito</div>
-              </div>
+                <input type="text" placeholder="Ingrese la palrabra a buscar" class="form-control" id="inputValid">
+            </div>
+
+            <section id="contenido">
+
+            </section>
+
+            <template id="template">
+                <div class="plantilla">
+                    <div class="card text-white bg-secondary mb-3" style="max-width: auto;" id="border">
+                        <div class="card-header"></div>
+                        <div class="card-body">
+                            <h4 class="card-title"></h4>
+                            <p class="card-text"></p>
+                        </div>
+                    </div>
+            </template>
+
+
+
         </div>
     </div>
 
 </body>
+<script src="js/main.js"></script>
 <!-- CDN BOOSTRAP -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"

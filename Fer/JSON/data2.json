@@ -63,21 +63,25 @@
             "nombre": "douglas *syndra champ",
             "correo": "douglas@gmail.com",
             "contraseña": "proplayerdelol",
-            "imagen": "ruta"
+            "imagen": "rutagg"
         },
         {
             "nombre": "Fer Gamer",
-            "contraseña": "ferG"
+            "correo": "douglasotro@gmail.com",
+            "contraseña": "ferG",
+            "imagen": "rutag"
         },
         {
             "nombre": "jnyalx100",
             "correo": "jona@gmail.com",
-            "contraseña": "proplayerdeloleovannyesmerrzerg"
+            "contraseña": "proplayerdeloleovannyesmerrzerg",
+            "imagen": "rutaf"
         },
         {
             "nombre": "yossu",
             "correo": "yossu@gmail.com",
-            "contraseña": "45contra98"
+            "contraseña": "45contra98",
+            "imagen": "rutaa"
         }
     ]
 }
