@@ -54,8 +54,11 @@ body {
   width: 80px;
   padding-right: 10px;
   margin: auto;
+  transform: scale(1.2);
 }
-
+#logobuscar:hover{
+  transform: scale(1.2);
+}
 /* se maneja lo de boostrap */
 #inputValid{
     width: 300px;
@@ -80,4 +83,26 @@ body {
 }
 .plantilla{
   font-family: 'Inconsolata', monospace;
+}
+#btn_Editar{
+  border-radius: 30px;
+  margin: 0 0 10px 10px;
+  position: relative;
+}
+#btn_Borrar{
+  border-radius: 30px;
+  margin: 0 0 10px 10px;
+  position: relative;
+}
+#btn_Editar > span{
+  color: black;
+}
+#btn_Borrar> span{
+  color: gainsboro;
+}
+#btn_Editar:hover{
+  transform: scale(1.2);
+}
+#btn_Borrar:hover{
+  transform: scale(1.2);
 }

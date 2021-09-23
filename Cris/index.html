@@ -19,14 +19,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap" rel="stylesheet">
-    
+    <!-- animacion css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
 <body>
     <!-- LOGOTIPO DE LA PAGINA -->
     <div class="navbar">
 
-        <div class="logo">
+        <div class="logo animate__animated animate__swing">
             <img id="imgLogo" src="img/fingerprint-solid.svg" alt="La hera digital">
             <a id="letraLogo">Ingenieria</a>
         </div>
@@ -45,7 +46,7 @@
         <div class="buscador">
             <!-- icono -->
             <div class="form-group">
-                <img src="img/search-solid.svg" alt="Buscador" id="logobuscar">
+                <input type="image" src="img/search-solid.svg" alt="Buscador" id="logobuscar">
                 <!-- en la parte de la clase agregamos is-valid o is-invalid para marcar un error solo se le agrega la maenra -->
                 <input type="text" placeholder="Ingrese la palrabra a buscar" class="form-control" id="inputValid">
             </div>
@@ -55,12 +56,19 @@
             </section>
 
             <template id="template">
-                <div class="plantilla">
+                <div class="plantilla animate__animated animate__slideInLeft">
                     <div class="card text-white bg-secondary mb-3" style="max-width: auto;" id="border">
                         <div class="card-header"></div>
                         <div class="card-body">
                             <h4 class="card-title"></h4>
                             <p class="card-text"></p>
+                            <br>
+                            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                                <button type="button" class="btn btn-primary btn-lg"
+                                    id="btn_Editar"><span>Editar</span></button>
+                                <button type="button" class="btn btn-danger btn-lg"
+                                    id="btn_Borrar"><span>Eliminar</span></button>
+                            </div>
                         </div>
                     </div>
             </template>
