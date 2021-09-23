@@ -1,0 +1,45 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  position: relative;
+  display: inline-block;
+  background-color: gray;
+
+  margin: 1% 10% 10% 10%;
+  text-align: center;
+}
+.logo {
+  padding-left: 100px;
+}
+.logo a {
+  font-family: "Electrolize", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 47px;
+
+  color: #000000;
+}
+.redireccion {
+  padding-right: 100px;
+}
+.redireccion a {
+  font-family: "Electrolize", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 47px;
+
+  padding-left: 20px;
+  color: #000000;
+}
+
+/* estilo a las clases de "A" y el svg */
+#imgLogo {
+  height: 80px;
+  width: 80px;
+  padding-right: 10px;
+}
