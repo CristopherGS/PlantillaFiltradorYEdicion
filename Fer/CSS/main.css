@@ -1,11 +1,19 @@
 #glosary{
     background-color: #e2ebf0;
+    border-radius: 5%;
+    margin: 10% 0% 0% 0%;
 }
 h2{
-    font-weight: 500; 
+    font-weight: 500;
+    color: black; 
 }
 #Box{
-    width: 80%;
-    margin: 10% 5% 0% 5%;
-    color: white;
+    width: 85%;
+    padding: 2% 5%;
+    background-color: white;
+    margin-bottom: 5%;
+    margin: auto;
+}
+.bold{
+    font-weight: 600;
 }

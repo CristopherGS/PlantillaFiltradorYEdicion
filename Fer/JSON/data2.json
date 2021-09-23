@@ -7,7 +7,7 @@
             "titulo": "title",
             "contenido": "es visualizar el futuro de la empresa fijando metas y objetivos que se desean lograr, decidiendo las actividades y encargados de la misma.",
             "ejemplos": [
-                "ejemplo1 ejemplo2"
+                "ejemplo1 ejemplo2", "otro"
             ],
             "modificacion": [
                 {
@@ -24,8 +24,8 @@
             "id": "PAL02",
             "fecha_de_creacion" : "2021-09-21T18:25:43.511Z",
             "autor" : "usuario2",
-            "titulo" : "title",
-            "contenido" : "es visualizar el futuro de la empresa fijando metas y objetivos que se desean lograr, decidiendo las actividades y encargados de la misma.",
+            "titulo" : "title others",
+            "contenido" : "Commodo irure exercitation aliqua qui exercitation nulla. Tempor quis eiusmod qui nulla ad dolore. Nostrud est nisi velit excepteur tempor ullamco esse in Lorem proident ex elit. Nisi proident sit aute dolore tempor anim incididunt do cillum quis non ex. Irure incididunt eu esse anim non non.",
             "ejemplos" : ["ejemplo1 ejemplo2"],
             "modificacion": [
                 {
@@ -42,7 +42,7 @@
             "id": "PAL03",
             "fecha_de_creacion" : "2021-09-21T18:25:43.511Z",
             "autor" : "usuario",
-            "titulo" : "title",
+            "titulo" : "title last",
             "contenido" : "es visualizar el futuro de la empresa fijando metas y objetivos que se desean lograr, decidiendo las actividades y encargados de la misma.",
             "ejemplos" : ["ejemplo1 ejemplo2"],
             "modificacion": [

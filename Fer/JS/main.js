@@ -31,7 +31,37 @@ function TrabajandoDOM(size, jsonFile){
     box.setAttribute("id", "Box");
     let title = document.createElement("H2")
     let content = document.createTextNode(jsonFile[i].titulo)
+    let authorE = document.createElement("p")
+    let author = document.createTextNode("Autor: " + jsonFile[i].autor)
+    let definitionE = document.createElement("p")
+    let definition = document.createTextNode("Contenido: " + jsonFile[i].contenido)
+    let examples = document.createElement("div")
+    for(let j = 0; j<jsonFile[i].ejemplos.length; j++){
+      let exampleE = document.createElement("p")
+      if(j==0){
+        let example = document.createTextNode("Ejemplos: ")
+        example.appendData("Ejemplo " + (j+1) + " " + jsonFile[i].ejemplos[j])
+        exampleE.appendChild(example)
+        examples.appendChild(exampleE)
+      }else{
+        let example = document.createTextNode("Ejemplo " + (j+1) + " " + jsonFile[i].ejemplos[j])
+        exampleE.appendChild(example)
+        examples.appendChild(exampleE)
+      }
+    }
+    let modificationE = document.createElement("p")
+    //modification = document.createTextNode("Última modificación: " + jsonFile[i].modificacion[0].fecha)//para agarrar la ultima vez modificado
+    let modification = document.createTextNode("Última modificación: " + jsonFile[i].modificacion[jsonFile[i].modificacion.length-1].fecha)//para agarrar la ultima vez modificado
     title.appendChild(content)
-    div.appendChild(title)
+    box.appendChild(title)
+    authorE.appendChild(author)
+    box.appendChild(authorE)
+    definitionE.appendChild(definition)
+    box.appendChild(definitionE)
+    box.appendChild(examples)
+    modificationE.appendChild(modification)
+    box.appendChild(modificationE)
+    box.appendChild(modification)
+    div.appendChild(box)
   }
 }

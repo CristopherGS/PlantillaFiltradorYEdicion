@@ -6,7 +6,7 @@
             "autor" : "usuario",
             "titulo" : "title",
             "texto" : "es visualizar el futuro de la empresa fijando metas y objetivos que se desean lograr, decidiendo las actividades y encargados de la misma.",
-            "ejemplos" : ["ejemplo1 ejemplo2"],
+            "ejemplos" : ["ejemplo1 ejemplo2", "otro"],
             "imagen" : "www.drive/palabra01.com",
             "modificacion": [
                 {
@@ -23,8 +23,8 @@
             "id": "PAL02",
             "fecha_de_creacion" : "2021-09-21T18:25:43.511Z",
             "autor" : "usuario2",
-            "titulo" : "title",
-            "texto" : "es visualizar el futuro de la empresa fijando metas y objetivos que se desean lograr, decidiendo las actividades y encargados de la misma.",
+            "titulo" : "title other",
+            "texto" : " Ex esse nulla duis laboris ex culpa non nisi ut mollit. Amet in ullamco in mollit ullamco adipisicing nisi nulla ullamco cupidatat nostrud id minim reprehenderit. Officia ut labore adipisicing eiusmod nostrud minim sit. Ut exercitation nulla est labore enim esse magna consequat dolore..",
             "ejemplos" : ["ejemplo1 ejemplo2"],
             "imagen" : "www.drive/palabra01.com",
             "modificacion": [
@@ -42,7 +42,7 @@
             "id": "PAL03",
             "fecha_de_creacion" : "2021-09-21T18:25:43.511Z",
             "autor" : "usuario",
-            "titulo" : "title",
+            "titulo" : "title last",
             "texto" : "es visualizar el futuro de la empresa fijando metas y objetivos que se desean lograr, decidiendo las actividades y encargados de la misma.",
             "ejemplos" : ["ejemplo1 ejemplo2"],
             "imagen" : "www.drive/palabra01.com",
