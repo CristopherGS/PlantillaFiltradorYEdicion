@@ -1,0 +1,16 @@
+{
+  "name": "Cris",
+  "version": "1.0.0",
+  "description": "Consultas a la base de datos",
+  "main": "index.js",
+  "dependencies": {
+    "firebase": "^9.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.html"
+  },
+  "keywords": [],
+  "author": "Back-end",
+  "license": "ISC"
+}
